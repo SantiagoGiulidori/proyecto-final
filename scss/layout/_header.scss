@@ -1,0 +1,36 @@
+
+/*---Header---*/
+
+header {
+    background-color: green;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/*---Utilizo Nesting---*/ 
+nav {
+    width: 50vw;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+body {
+    background-color: black;
+    color: rgb(250, 249, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

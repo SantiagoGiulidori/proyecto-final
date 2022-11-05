@@ -1,0 +1,45 @@
+$color-primario: green;
+$color-secundario: white;
+
+
+@media screen and (min-width:300px) and (max-width:375px) {
+  .nav ul {
+    display: none;
+  }
+}
+
+@media (min-width: 375px) {
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .article {
+    padding: 15px;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 600px) {
+  .nav ul {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+  }  
+   .body iframe {
+    width: 50%;
+   }
+}
+
+
+@mixin name {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
